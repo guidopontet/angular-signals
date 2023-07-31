@@ -1,0 +1,20 @@
+<div class="signals">
+  <h2>Signals</h2>
+  <hr>
+
+  <span class="badge text-bg-success">Valor1: {{ value1() }}</span>
+  <span class="badge text-bg-success">Valor2: {{ value2() }}</span>
+
+  <ul>
+    <li>
+      <strong>Doble del valor1</strong>:
+      <span>{{ doubleValue1() }}</span>
+    </li>
+    <li>
+      <strong>Suma de valores</strong>:
+      <span>{{ sumValues() }}</span>
+    </li>
+  </ul>
+
+  <button class="btn btn-success btn-block" (click)="changeValues()">Cambiar Valor1 a 15</button>
+</div>

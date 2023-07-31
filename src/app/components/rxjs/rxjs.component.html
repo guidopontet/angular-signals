@@ -1,0 +1,20 @@
+<div class="rxjs">
+  <h2>RxJs</h2>
+  <hr>
+
+  <span class="badge text-bg-warning">Valor1: {{ value1$ | async }}</span>
+  <span class="badge text-bg-warning">Valor2: {{ value2$ | async }}</span>
+
+  <ul>
+    <li>
+      <strong>Doble del valor1</strong>:
+      <span>{{ doubleValue1$ | async }}</span>
+    </li>
+    <li>
+      <strong>Suma de valores</strong>:
+      <span>{{ sumValues$ | async }}</span>
+    </li>
+  </ul>
+
+  <button class="btn btn-warning btn-block" (click)="changeValues()">Cambiar Valor1 a 15</button>
+</div>

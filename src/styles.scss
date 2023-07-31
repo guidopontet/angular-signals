@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  font-size: 18px;
+  font-family: sans-serif;
+
+  body {
+    padding: 20px;
+
+    .main {
+      .columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+
+        .badge {
+          font-size: 1rem;
+          margin: 10px;
+        }
+      }
+
+      button {
+        font-size: 1rem;
+        width: 100%;
+      }
+    }
+  }
+}
+
